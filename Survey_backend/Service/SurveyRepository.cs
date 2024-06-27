@@ -29,4 +29,6 @@ public class SurveyRepository
 
     public UserDTO verfiyUser(string userId) =>
         _userCollection.Find(user => user.Id == userId).FirstOrDefault();
+    
+    public void CreateSurvey(SurveyDTO surveyDTO) => _surveyCollection.InsertOne(surveyDTO);
 }
