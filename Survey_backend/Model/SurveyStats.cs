@@ -15,4 +15,25 @@ public class SurveyStats
     public double RadioLovers { get; set; }
     public double EatOutLovers { get; set; }
     public double TvLovers { get; set; }
+
+    public SurveyStats()
+    {
+    }
+
+    public SurveyStats(int totalSurveys, string avarageAge, string oldAge, string youngAge, double pizzaLovers,
+        double pastaLovers, double papAndWorsLovers, double movieLovers, double radioLovers, double eatOutLovers,
+        double tvLovers)
+    {
+        TotalSurveys = totalSurveys;
+        AvarageAge = avarageAge;
+        OldAge = oldAge;
+        YoungAge = youngAge;
+        PizzaLovers = pizzaLovers;
+        PastaLovers = pastaLovers;
+        PapAndWorsLovers = papAndWorsLovers;
+        MovieLovers = movieLovers;
+        RadioLovers = radioLovers;
+        EatOutLovers = eatOutLovers;
+        TvLovers = tvLovers;
+    }
 }
