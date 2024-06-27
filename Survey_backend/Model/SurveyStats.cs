@@ -6,7 +6,6 @@ public class SurveyStats
     public string AvarageAge { get; set; }
     public string OldAge { get; set; }
     public string YoungAge { get; set; }
-
     public double PizzaLovers { get; set; }
     public double PastaLovers { get; set; }
     public double PapAndWorsLovers { get; set; }
